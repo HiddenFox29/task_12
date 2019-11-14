@@ -13,8 +13,8 @@ document.addEventListener('DOMContentLoaded', function () {
     btn.onclick = function () {
 
         let movieName = prompt('Введите название фильма латинскими буквами').toLowerCase();
-        
-        if (movieName) {
+
+        if (movie[movieName]) {
             alert('Год выпуска фильма ' + movie[movieName])
 
         } else {
